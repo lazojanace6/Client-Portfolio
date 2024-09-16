@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 
 const WorkExperience : React.FC = () => {
   return (
-    <div className='h-1/2 max-md:mt-[40%] max-lg:mt-[20%]'>
+    <div id='experience' className='h-[30%] max-md:mt-[60%] max-lg:mt-[20%]'>
      <Title title='Work Experience'/>
      <div className='flex gap-2 mt-3 items-center max-lg:block'>
      <CardWorkExp data={"test"}/> 

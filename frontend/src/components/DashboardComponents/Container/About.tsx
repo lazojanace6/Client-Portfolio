@@ -1,10 +1,9 @@
 import React from 'react'
 import Title from '../atoms/Title'
- 
 import pic from "../../../assets/pic.png"
 const About : React.FC = () => {
   return (
-    <div className='w-full h-[100%] flex  max-lg:block max-lg:mt-[20%] items-center justify-center'>
+    <div id='about' className='w-full h-[80%] flex  max-lg:block max-lg:mt-[20%] items-center justify-center'>
       <div className='w-[40%] h-[60%] rounded-lg flex justify-start max-lg:justify-center max-lg:w-full max-lg:mt-10'>
        <img src={pic} alt="image" className='w-[70%] max-md:w-full max-md:mb-4 max-md:mt-4 object-contain' />
       </div>

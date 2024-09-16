@@ -7,13 +7,13 @@ const Header : React.FC = () => {
         Julienne
        </h1>
         <div className='flex items-center gap-3 font-gray max-md:hidden'>
-            <button >About</button>
-            <button>Projects</button>
-            <button>Testimonials</button>
-            <button>Experience</button>
-            <button>Contact</button>
+            <a href='#about'>About</a>
+            <a href='#projects'>Projects</a>
+            <a href='#testimonials'>Testimonials</a>
+            <a href='#experience'>Experience</a>
+            <a href='#contact'>Contact</a>
         </div>
-        <button className='bg-green text-white p-2 rounded-full text-sm'>
+        <button className='bg-green text-white p-2 rounded-full text-sm hover:bg-opacity-90'>
             Download CV
         </button>
     </div>
